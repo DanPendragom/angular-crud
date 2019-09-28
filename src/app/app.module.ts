@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { CalculadoraComponent } from './calculadora/calculadora.component';
+import { SomarModule } from './somar/somar.module';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { CalculadoraComponent } from './calculadora/calculadora.component';
   imports: [
     BrowserModule,
     FormsModule,
+    SomarModule,
     HttpModule
   ],
   providers: [],
